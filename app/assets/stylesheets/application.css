@@ -36,6 +36,11 @@ header {
   padding: 10px 10px 30px 10px;
 }
 
+div#admin_nav{
+  padding: 0px 0px 0px 400px;
+}
+
+
 .websiteLogo{
   float:left;
   text-decoration: none;
