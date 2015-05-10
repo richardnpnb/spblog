@@ -28,6 +28,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    bcrypt (3.1.10)
     bcrypt (3.1.10-x86-mingw32)
     builder (3.2.2)
     coffee-rails (4.0.1)
@@ -60,8 +61,9 @@ GEM
     mime-types (2.5)
     minitest (5.6.1)
     multi_json (1.11.0)
-    mysql2 (0.3.18-x86-mingw32)
     orm_adapter (0.5.0)
+    pg (0.18.1)
+    pg (0.18.1-x86-mingw32)
     rack (1.5.2)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -119,6 +121,7 @@ GEM
       rack (>= 1.0)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
@@ -126,7 +129,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
-  mysql2
+  pg
   rails (= 4.1.8)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
